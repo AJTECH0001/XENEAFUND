@@ -40,7 +40,6 @@
     "babel-preset-stage-3": "^6.24.1",
     "babel-register": "^6.26.0",
     "buffer": "^6.0.3",
-    "chai": "^4.3.6",
     "chai-as-promised": "^7.1.1",
     "crypto-browserify": "^3.12.0",
     "dotenv": "^16.0.0",
@@ -53,7 +52,16 @@
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
     "tailwindcss": "3.0.18",
-    "url": "^0.11.0"
+    "url": "^0.11.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/test-environment": "^0.1.9",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "chai": "^4.4.1",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.20.1",
+    "mocha": "^10.3.0"
   },
   "browserslist": {
     "production": [

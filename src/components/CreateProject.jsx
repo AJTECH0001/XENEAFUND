@@ -74,7 +74,7 @@ const CreateProject = () => {
               <img
                 src={
                   imageURL ||
-                  'https://media.wired.com/photos/5926e64caf95806129f50fde/master/pass/AnkiHP.jpg'
+                  ''
                 }
                 alt="project title"
                 className="h-full w-full object-cover cursor-pointer"
@@ -111,7 +111,7 @@ const CreateProject = () => {
               step={0.01}
               min={0.01}
               name="cost"
-              placeholder="cost (ETH)"
+              placeholder="cost (XCR)"
               onChange={(e) => setCost(e.target.value)}
               value={cost}
               required

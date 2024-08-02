@@ -10,7 +10,7 @@ const Hero = () => {
       >
         <span className="capitalize">Bring creative projects to life on</span>
         <br />
-        <span className="uppercase text-green-600">genesis.</span>
+        <span className="uppercase text-green-600">XENEAFUND.</span>
       </h1>
       <div className="flex justify-center items-center space-x-2">
         <button
@@ -22,7 +22,7 @@ const Hero = () => {
         >
           Add Project
         </button>
-
+       
         <button
           type="button"
           className="inline-block px-6 py-2.5 border border-green-600
@@ -67,7 +67,7 @@ const Hero = () => {
             className="text-lg font-bold text-green-900
             leading-5"
           >
-            {stats?.totalDonations || 0} ETH
+            {stats?.totalDonations || 0} XCR
           </span>
           <span>Donated</span>
         </div>
